@@ -1,10 +1,29 @@
 body{
-    background-color: bisque;
+    background-color: FFDCB9;
 }
 
 .logo{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #4C4C4C;
+    padding: 30px;
+
+}
+
+#navbar a{
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
+    font-size: 18px;
+}
+
+#navbar a:hover{
+    background-color: #6A6A6A;
+    color: #FFDCB9;
 }
 
 .section-1{
@@ -29,18 +48,28 @@ body{
 }
 
 .image-1{
-    height: 800px;
+    
     width: 800px;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .image-2{
-    height: 800px;
+    
     width: 800px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .image-3{
-    height: 800px;
+    
     width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text-1{
+    display: flex;
+    text-align: center;
+    margin-right: 40%;
 }
