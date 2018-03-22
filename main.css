@@ -9,19 +9,30 @@ body{
 
 .section-1{
     height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .section-2{
     height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .section-3{
     height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .image-1{
     height: 800px;
     width: 800px;
+    padding: 20px;
+    margin: 20px;
 }
 
 .image-2{
