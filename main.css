@@ -137,3 +137,20 @@ body{
     text-align: center;
 }
 
+/* footer font size */
+
+.fa.fa-facebook-square{
+    font-size: 36px;
+}
+
+.fa.fa-instagram{
+    font-size: 36px;
+}
+
+.fa.fa-tumblr-square{
+    font-size: 36px;
+}
+
+.fa.fa-pinterest-square{
+    font-size: 36px;
+}
