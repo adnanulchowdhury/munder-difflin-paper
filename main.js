@@ -19,10 +19,6 @@ let second_section = sections[1];
 let third_section = sections[2];
 
 window.addEventListener("scroll", event => {
-    // if(window.scrollY > 100) {
-    //     first_section.classList.add("fadeIn");
-    //     console.log("first scroll")
-    // }
 
     if(window.scrollY > 800) {
         second_section.classList.add("fadeIn")
@@ -36,8 +32,6 @@ window.addEventListener("scroll", event => {
 })
 
 
-// window.onload = function(){
-//     first_section.classList.add("fadeIn");
-// }
+
 
 
