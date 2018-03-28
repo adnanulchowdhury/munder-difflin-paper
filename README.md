@@ -2,6 +2,8 @@ summery: Munder Difflin stone paper is a paper company that deals in revolutiona
 
 inspiration: For inspiration I used Karst stone paper company. Karst deals in journals made out stone paper. They also have planners and other paper products.
 
+animation: I used a transition animation.
+
                                                                         Requirements
 
 Goal:

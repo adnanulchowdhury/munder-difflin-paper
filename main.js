@@ -10,3 +10,34 @@ function stickyNav () {
         navbar.classList.remove("sticky");
     }
 }
+
+
+
+let sections = document.getElementsByTagName("section");
+let first_section = sections[0];
+let second_section = sections[1];
+let third_section = sections[2];
+
+window.addEventListener("scroll", event => {
+    // if(window.scrollY > 100) {
+    //     first_section.classList.add("fadeIn");
+    //     console.log("first scroll")
+    // }
+
+    if(window.scrollY > 800) {
+        second_section.classList.add("fadeIn")
+        console.log("second scroll")
+    }
+
+    if(window.scrollY > 1600) {
+        third_section.classList.add("fadeIn")
+        console.log("third scroll")
+    }
+})
+
+
+// window.onload = function(){
+//     first_section.classList.add("fadeIn");
+// }
+
+
