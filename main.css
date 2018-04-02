@@ -30,6 +30,7 @@
     color: #FFDCB9;
 }
 
+/* These main-content and slide_down was used for sticky navigation bar. */
 .main-content{
     padding: 0px;
 }
@@ -43,6 +44,7 @@
 .slide_down + .main-content{
     padding-top: 60px;
 }
+/* It ends here. */
 
 body{
     margin: 0;
