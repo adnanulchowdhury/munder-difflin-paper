@@ -18,7 +18,7 @@ function sticky_navigation_menu () {
 }
 
 
-
+//window.addEventListener executes the fadeIn transition animation that was creadted by using keyframes in css file.
 let sections = document.getElementsByTagName("section");
 let first_section = sections[0];
 let second_section = sections[1];
