@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-#navbar{
+#navigation_bar{
     overflow: hidden;
     background-color: #4C4C4C;
     padding: 30px;
@@ -18,14 +18,14 @@
 
 }
 
-#navbar a{
+#navigation_bar a{
     color: white;
     text-align: center;
     padding: 80px 80px;
     font-size: 24px;
 }
 
-#navbar a:hover{
+#navigation_bar a:hover{
     background-color: #6A6A6A;
     color: #FFDCB9;
 }
@@ -34,13 +34,13 @@
     padding: 0px;
 }
 
-.sticky{
+.slide_down{
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.sticky + .main-content{
+.slide_down + .main-content{
     padding-top: 60px;
 }
 
@@ -87,17 +87,17 @@ body{
 }
 
 .image-1{
-    
+
     width: 900px;
 }
 
 .image-2{
-    
+
     width: 940px;
 }
 
 .image-3{
-    
+
     width: 900px;
 }
 
@@ -118,7 +118,7 @@ body{
     margin-top: 300px;
     font-size: 20px;
     line-height: 2.5;
-    
+
 }
 
 .footer{

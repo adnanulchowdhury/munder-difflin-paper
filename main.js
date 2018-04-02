@@ -1,13 +1,16 @@
-window.onscroll = function () { stickyNav () };
+// window.scroll code structure was taken from W3 School "How TO - Sticky/Affix Navbar"
+// It was used to create the sticky navigation menu while a user is scrolling down page. The function name, variable name, and class names have been changed.
+// links: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+window.onscroll = function () { sticky_navigation_menu () };
 
-let navbar = document.getElementById("navbar");
-let sticky= navbar.offsetTop;
+let navigation_menu = document.getElementById("navigation_bar");
+let slide_down= navigation_menu.offsetTop;
 
-function stickyNav () {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add ("sticky")
+function sticky_navigation_menu () {
+    if (window.pageYOffset >= slide_down) {
+        navigation_menu.classList.add ("slide_down")
     } else {
-        navbar.classList.remove("sticky");
+        navigation_menu.classList.remove("slide_down");
     }
 }
 
@@ -22,16 +25,11 @@ window.addEventListener("scroll", event => {
 
     if(window.scrollY > 800) {
         second_section.classList.add("fadeIn")
-        console.log("second scroll")
+        // console.log("second scroll")
     }
 
     if(window.scrollY > 1600) {
         third_section.classList.add("fadeIn")
-        console.log("third scroll")
+        // console.log("third scroll")
     }
 })
-
-
-
-
-
