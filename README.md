@@ -1,10 +1,10 @@
-summery: Munder Difflin stone paper is a paper company that deals in revolutionary stone paper. Their technology has been recently developed. They are a start up company, thats why they are taking pre-orders from their customers. Also the company is trying to raise its brand awareness through the website. Munder Difflin will come up with new products in coming months. Customers can contact the company through the social media links on the footer section.
+summary: Munder Difflin stone paper is a paper company that deals in revolutionary stone paper. Their technology has been recently developed. They are a start up company, thats why they are taking pre-orders from their customers. Also the company is trying to raise its brand awareness through the website. Munder Difflin will come up with new products in coming months. Customers can contact the company through the social media links on the footer section.
 
 inspiration: For inspiration I used Karst stone paper company. Karst deals in journals made out stone paper. They also have planners and other paper products.
 
-animation: I used a keyframe animation.
+animation: keyframe animation.
 
-                                                                        Requirements
+
 
 Goal:
 
